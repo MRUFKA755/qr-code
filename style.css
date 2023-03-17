@@ -19,6 +19,9 @@ body {
     padding: 20px;
     width: 380px;
     border-radius: 20px;
+    -webkit-box-shadow: 1px 3px 7px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 1px 3px 7px 0px rgba(66, 68, 90, 1);
+    box-shadow: 1px 3px 7px 0px rgba(66, 68, 90, 1);
 }
 .card img {
     width: 100%;
@@ -32,4 +35,7 @@ body {
 }
 .text p{
     color: hsl(220, 15%, 55%);
+}
+.text {
+    margin-bottom: 15px;
 }
